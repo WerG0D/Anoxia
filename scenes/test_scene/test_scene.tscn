@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://js4xyn3p82fc"]
+[gd_scene load_steps=11 format=4 uid="uid://js4xyn3p82fc"]
 
 [ext_resource type="PackedScene" uid="uid://pj52dqrr2rhp" path="res://entities/player/player.tscn" id="1_8pyld"]
 [ext_resource type="Texture2D" uid="uid://3wdaobs1xah8" path="res://scenes/test_scene/bg teste.png" id="2_mndh0"]
@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://cs7iyljlp7otp" path="res://scenes/test_scene/TX Tileset Stone Ground.png" id="4_l4ihe"]
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_wgdak"]
-cull_mode = 2
+cull_mode = 1
 polygon = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
 
 [sub_resource type="OccluderPolygon2D" id="OccluderPolygon2D_doi4a"]
@@ -108,7 +108,7 @@ texture = ExtResource("3_1x7oe")
 texture_scale = 1.2
 
 [node name="TileMapLayer" type="TileMapLayer" parent="."]
-tile_map_data = PackedByteArray(0, 0, 255, 255, 252, 255, 0, 0, 0, 0, 0, 0, 0, 0, 237, 255, 245, 255, 0, 0, 2, 0, 0, 0, 0, 0, 237, 255, 246, 255, 0, 0, 2, 0, 0, 0, 0, 0, 237, 255, 247, 255, 0, 0, 2, 0, 0, 0, 0, 0, 237, 255, 248, 255, 0, 0, 2, 0, 0, 0, 0, 0)
+tile_map_data = PackedByteArray("AAD///z/AAAAAAAAAADt//X/AAACAAAAAADt//b/AAACAAAAAADt//f/AAACAAAAAADt//j/AAACAAAAAAD4//7/AAAAAAAAAAD4////AAAAAAEAAAD4/wAAAAAAAAIAAAD6//7/AAAAAAAAAAD6////AAAAAAEAAAD6/wAAAAAAAAIAAAD8//7/AAAAAAAAAAD8////AAAAAAEAAAD8/wAAAAAAAAIAAAAYAAwAAAAAAAAAAAA=")
 tile_set = SubResource("TileSet_g451t")
 
 [node name="LightOccluder2D2" type="LightOccluder2D" parent="."]

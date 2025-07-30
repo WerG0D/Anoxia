@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3euqa2hf7xtc"
-path="res://.godot/imported/Escafandrista Full Animation Sheet.png-4913e68abd785354d482135af1673108.ctex"
+uid="uid://c571w3nxtabg3"
+path="res://.godot/imported/Escafandrista Full Animation Sheet.png-1d5f7334151dcf3278484806373f0e0c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpriteSheet/Escafandrista Full Animation Sheet.png"
-dest_files=["res://.godot/imported/Escafandrista Full Animation Sheet.png-4913e68abd785354d482135af1673108.ctex"]
+source_file="res://entities/player/Escafandrista Full Animation Sheet.png"
+dest_files=["res://.godot/imported/Escafandrista Full Animation Sheet.png-1d5f7334151dcf3278484806373f0e0c.ctex"]
 
 [params]
 

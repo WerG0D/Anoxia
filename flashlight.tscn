@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://cyunudh2ck5oo"]
+
+[ext_resource type="Texture2D" uid="uid://c0hw1fnbpgpx5" path="res://Light.png" id="2_h3kvc"]
+
+[node name="Flashlight" type="PointLight2D"]
+scale = Vector2(-0.59545, 0.229041)
+shadow_enabled = true
+texture = ExtResource("2_h3kvc")
+offset = Vector2(400, 0)
