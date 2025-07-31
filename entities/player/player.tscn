@@ -948,13 +948,13 @@ rotation_smoothing_enabled = true
 
 [node name="Flashlight" parent="." instance=ExtResource("3_bls4j")]
 rotation = -1.5708
+scale = Vector2(1e-05, 1e-05)
 
 [node name="BackFlashLight" type="PointLight2D" parent="."]
 rotation = -1.5708
-scale = Vector2(-0.595, 0.229)
-color = Color(1, 1, 1, 0)
-energy = 2.15
+color = Color(1, 1, 1, 0.87451)
 shadow_enabled = true
+shadow_color = Color(1, 1, 1, 0.294118)
 texture = ExtResource("4_bls4j")
 offset = Vector2(400, 0)
 

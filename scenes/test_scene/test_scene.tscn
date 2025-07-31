@@ -91,12 +91,13 @@ polygon = PackedVector2Array(-576, -352, -608, -352, -608, -226, -576, -224)
 
 [node name="Player" parent="." instance=ExtResource("1_8pyld")]
 z_index = 1
+position = Vector2(780, 496)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_mndh0")
 
 [node name="CanvasModulate" type="CanvasModulate" parent="."]
-color = Color(0, 0.0745098, 0.137255, 1)
+color = Color(0.0687983, 0.0687983, 0.0687983, 1)
 
 [node name="PointLight2D" type="PointLight2D" parent="."]
 position = Vector2(-654, -305)
