@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://dlifomth5oe17"]
+
+[ext_resource type="PackedScene" uid="uid://bhosx5otfbwho" path="res://Scenes/LanternScene.tscn" id="1_vu8nv"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+rotation = 0.0103521
+zoom = Vector2(3, 3)
+
+[node name="AnimatedSprite2D" parent="." instance=ExtResource("1_vu8nv")]
+frame = 3
+frame_progress = 1.0
